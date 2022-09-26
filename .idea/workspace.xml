@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c1af74e-16df-4a46-a8a8-58e42ddc48c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bowling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FrameCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BowlingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FrameCalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9c1af74e-16df-4a46-a8a8-58e42ddc48c7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

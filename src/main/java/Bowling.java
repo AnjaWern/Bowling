@@ -21,12 +21,12 @@ public class Bowling {
                 bonus = true;
             } else {
                 if (lastWasSpare == true) {
-                    total += firstOfFrameToInt(frame);
+                    total += frameCalculator.firstOfFrameToInt(frame);
                     lastWasSpare = false;
                 }
 
                 if (lastTwoWereStrikes == true) {
-                    total += firstOfFrameToInt(frame);
+                    total += frameCalculator.firstOfFrameToInt(frame);
                     lastTwoWereStrikes = false;
                 }
 
@@ -40,7 +40,7 @@ public class Bowling {
                         total += 10;
                         lastWasStrike = false;
                     } else {
-                        total += firstOfFrameToInt(frame);
+                        total += frameCalculator.firstOfFrameToInt(frame);
                         total += Integer.parseInt(frame.substring(1));
                         lastWasStrike = false;
                     }
@@ -63,14 +63,4 @@ public class Bowling {
         }
         return total;
     }
-
-    public int firstOfFrameToInt(String frame) {
-        if ("X".equals(frame.substring(0, 1))) {
-            return 10;
-        } else {
-            return Integer.parseInt(frame.substring(0, 1));
-        }
-
-    }
-
 }
