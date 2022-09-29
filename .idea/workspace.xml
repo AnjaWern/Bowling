@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c1af74e-16df-4a46-a8a8-58e42ddc48c7" name="Changes" comment="" />
+    <list default="true" id="9c1af74e-16df-4a46-a8a8-58e42ddc48c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FrameCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FrameCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BowlingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BowlingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FrameCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FrameCalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +50,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BowlingTest">
+  <component name="RunManager" selected="JUnit.FrameCalculatorTest">
     <configuration name="BowlingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bowling" />
       <option name="PACKAGE_NAME" value="" />
@@ -55,31 +60,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BowlingTest.cardWithAllFramesZeroExceptFirst4SecondSpareThirdStrikeFourth4Results40" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BowlingTest.cardWithAllFramesZeroExceptFirstSpareSecondStrikeThird4Results38" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bowling" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BowlingTest" />
-      <option name="METHOD_NAME" value="cardWithAllFramesZeroExceptFirst4SecondSpareThirdStrikeFourth4Results40" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingTest.cardWithAllFramesZeroExceptFirstStrikeSecondStrikeThird4Results" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bowling" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BowlingTest" />
-      <option name="METHOD_NAME" value="cardWithAllFramesZeroExceptFirstStrikeSecondStrikeThird4Results" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingTest.cardWithLastFrameStrikeBonus22Results14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bowling" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BowlingTest" />
-      <option name="METHOD_NAME" value="cardWithLastFrameStrikeBonus22Results14" />
+      <option name="METHOD_NAME" value="cardWithAllFramesZeroExceptFirstSpareSecondStrikeThird4Results38" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,13 +79,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FrameCalculatorTest.frame34Results7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bowling" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FrameCalculatorTest" />
+      <option name="METHOD_NAME" value="frame34Results7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameCalculatorTest.frameResults0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bowling" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FrameCalculatorTest" />
+      <option name="METHOD_NAME" value="frameResults0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BowlingTest" />
-        <item itemvalue="JUnit.BowlingTest.cardWithAllFramesZeroExceptFirstStrikeSecondStrikeThird4Results" />
         <item itemvalue="JUnit.FrameCalculatorTest" />
-        <item itemvalue="JUnit.BowlingTest.cardWithLastFrameStrikeBonus22Results14" />
-        <item itemvalue="JUnit.BowlingTest.cardWithAllFramesZeroExceptFirst4SecondSpareThirdStrikeFourth4Results40" />
+        <item itemvalue="JUnit.FrameCalculatorTest.frameResults0" />
+        <item itemvalue="JUnit.FrameCalculatorTest.frame34Results7" />
+        <item itemvalue="JUnit.BowlingTest" />
+        <item itemvalue="JUnit.BowlingTest.cardWithAllFramesZeroExceptFirstSpareSecondStrikeThird4Results38" />
       </list>
     </recent_temporary>
   </component>
@@ -125,21 +130,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/BowlingTest.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Bowling.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

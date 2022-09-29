@@ -46,6 +46,7 @@ public class BowlingTest {
         FrameCalculator frameCalculator = mock(FrameCalculator.class);
         when(frameCalculator.calculate("1/")).thenReturn(10);
         when(frameCalculator.calculate("2-")).thenReturn(2);
+        when(frameCalculator.firstOfFrameToInt(anyString())).thenCallRealMethod();
         Bowling bowling = new Bowling(frameCalculator);
         assertEquals(14, bowling.calculate(input));
     }
@@ -56,6 +57,7 @@ public class BowlingTest {
         FrameCalculator frameCalculator = mock(FrameCalculator.class);
         when(frameCalculator.calculate("X")).thenReturn(10);
         when(frameCalculator.calculate("22")).thenReturn(4);
+        when(frameCalculator.firstOfFrameToInt(anyString())).thenCallRealMethod();
         Bowling bowling = new Bowling(frameCalculator);
         assertEquals(18, bowling.calculate(input));
     }
@@ -66,6 +68,7 @@ public class BowlingTest {
         FrameCalculator frameCalculator = mock(FrameCalculator.class);
         when(frameCalculator.calculate("X")).thenReturn(10);
         when(frameCalculator.calculate("22")).thenReturn(4);
+        when(frameCalculator.firstOfFrameToInt(anyString())).thenCallRealMethod();
         Bowling bowling = new Bowling(frameCalculator);
         assertEquals(40, bowling.calculate(input));
     }
@@ -77,6 +80,7 @@ public class BowlingTest {
         when(frameCalculator.calculate("1/")).thenReturn(10);
         when(frameCalculator.calculate("X")).thenReturn(10);
         when(frameCalculator.calculate("22")).thenReturn(4);
+        when(frameCalculator.firstOfFrameToInt(anyString())).thenCallRealMethod();
         Bowling bowling = new Bowling(frameCalculator);
         assertEquals(38, bowling.calculate(input));
     }
@@ -88,6 +92,7 @@ public class BowlingTest {
         when(frameCalculator.calculate("1/")).thenReturn(10);
         when(frameCalculator.calculate("X")).thenReturn(10);
         when(frameCalculator.calculate("22")).thenReturn(4);
+        when(frameCalculator.firstOfFrameToInt(anyString())).thenCallRealMethod();
         Bowling bowling = new Bowling(frameCalculator);
         assertEquals(40, bowling.calculate(input));
     }
@@ -99,6 +104,7 @@ public class BowlingTest {
         when(frameCalculator.calculate("1/")).thenReturn(10);
         when(frameCalculator.calculate("X")).thenReturn(10);
         when(frameCalculator.calculate("22")).thenReturn(4);
+        when(frameCalculator.firstOfFrameToInt(anyString())).thenCallRealMethod();
         Bowling bowling = new Bowling(frameCalculator);
         assertEquals(42, bowling.calculate(input));
     }
@@ -109,6 +115,7 @@ public class BowlingTest {
         FrameCalculator frameCalculator = mock(FrameCalculator.class);
         when(frameCalculator.calculate("X")).thenReturn(10);
         when(frameCalculator.calculate("22")).thenReturn(4);
+        when(frameCalculator.firstOfFrameToInt(anyString())).thenCallRealMethod();
         Bowling bowling = new Bowling(frameCalculator);
         assertEquals(14, bowling.calculate(input));
     }
@@ -119,6 +126,7 @@ public class BowlingTest {
         FrameCalculator frameCalculator = mock(FrameCalculator.class);
         when(frameCalculator.calculate("3/")).thenReturn(10);
         when(frameCalculator.calculate("5")).thenReturn(5);
+        when(frameCalculator.firstOfFrameToInt(anyString())).thenCallRealMethod();
         Bowling bowling = new Bowling(frameCalculator);
         assertEquals(15, bowling.calculate(input));
     }
